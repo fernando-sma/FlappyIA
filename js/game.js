@@ -121,7 +121,7 @@ function updateGameArea() {
 
             x = myGameArea.canvas.width;
             y = myGameArea.canvas.height - 100;
-            height = rdn(1, 2);
+            height = rdn(1, 300);
             gap = rdn(50, 250);
 
             myObstacles.push(new Component({
